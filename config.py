@@ -5,13 +5,13 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Telegram API credentials
-API_ID = os.getenv("API_ID", None)
-API_HASH = os.getenv("API_HASH", None)
+API_ID = os.getenv("API_ID", "28967047")
+API_HASH = os.getenv("API_HASH", "9d85609f45b51aa970fa13f6af3d4947")
 GPT_API = os.getenv("GPT_API")
 
 # Bot token and MongoDB URL fetched from environment variables
-BOT_TOKEN = os.getenv("BOT_TOKEN", None)
-MONGO_URL = os.getenv("MONGO_URL", None)
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7203514667:AAGX9PQjH1rv-NFqDiqYUI5Ya0lQP55tZnk")
+MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://Sarkar123:GAUTAMMISHRA@sarkar.1uiwqkd.mongodb.net/?retryWrites=true&w=majority")
 
 # Bot owner's Telegram user ID and username
 OWNER_ID = os.getenv("OWNER_ID",6829300557)
