@@ -14,12 +14,12 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
 GROQ_MODEL = os.getenv("GROQ_MODEL", "mixtral-8x7b-32768")  # Fast & good
 
 # Bot token and MongoDB URL fetched from environment variables
-BOT_TOKEN = os.getenv("BOT_TOKEN", "7203514667:AAGX9PQjH1rv-NFqDiqYUI5Ya0lQP55tZnk")
-MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://Sarkar123:GAUTAMMISHRA@sarkar.1uiwqkd.mongodb.net/?retryWrites=true&w=majority")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+MONGO_URL = os.getenv("MONGO_URL", "")
 
 # Bot owner's Telegram user ID and username
-OWNER_ID = os.getenv("OWNER_ID",6829300557)
-OWNER_USERNAME = "NoT_uR_SoHeL"
+OWNER_ID = os.getenv("OWNER_ID",)
+OWNER_USERNAME = "SheOwnsMaxim"
 
 # Support group and update channel names
 SUPPORT_GROUP = "SpIcYxChAtS"
